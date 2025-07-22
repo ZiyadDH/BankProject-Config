@@ -1,0 +1,15 @@
+server:
+  port: 9000
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/card_ms
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: Ziyad1917
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  application:
+    name: "cards"
