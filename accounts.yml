@@ -12,4 +12,10 @@ spring:
       ddl-auto: update
     show-sql: true
 
+info:
+  app:
+    name: "accounts"
+    description: "bank project Account Application"
+    version : "1.0.0"
+
 
