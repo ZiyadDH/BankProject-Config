@@ -13,3 +13,9 @@ spring:
     show-sql: true
   application:
     name: "cards"
+
+info:
+  app:
+    name: "Cards"
+    description: "bank project Cards Application"
+    version : "1.0.0"
